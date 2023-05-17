@@ -16,7 +16,7 @@ const data=[
         image:'blog2.png',
         type:"content",
         category:"🔬 Education",
-        heading:"Tax Benefits for Investment under National Pension Scheme launched by Government",
+        heading:"Tax Benefits for Investment under National Pension Scheme",
         paragraph:"I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
         profile:"profile4.png",
         name:"Sarah West",

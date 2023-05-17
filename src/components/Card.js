@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Card = ({image,type,category,heading,paragraph,profile,name,date,place,views}) => {
-    return (<div className=''>
+    return (<div className='w-100'>
          <div className="mt-4 card mb-3 w-100" >
-  <img src={image} className="card-img-top" alt="..."/>
+  <img src={image} className="w-100 card-img-top" alt="..."/>
   <div className="card-body">
-  <span class="badge text-black border bg-light">{category}</span>
+  <span className="badge text-black border bg-light">{category}</span>
     <h5 className="card-title mt-2 w-75">{heading}</h5>
     {(type!=="content")?<div className="">
         <div className='d-flex gap-4'>

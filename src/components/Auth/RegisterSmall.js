@@ -23,15 +23,13 @@ const RegisterSmall = ({setOpens}) => {
             </div>
             <button className='btn btn-primary p-2 rounded-pill mt-4 w-50 text-white fw-bold'>Create account</button>
             <button className='btn btn-light border shadow-sm p-2 rounded mt-4 w-100  fw-bold'> <img alt="fb" src='fb.png'/> &nbsp; Sign up with Facebook</button>
-            <button className='btn mb-5 btn-light border shadow-sm p-2 rounded mt-4 w-100 fw-bold'><img alt="google" src='search.png'/> &nbsp; Sign up with Google</button>
+            <button className='btn mb-2 btn-light border shadow-sm p-2 rounded mt-4 w-100 fw-bold'><img alt="google" src='search.png'/> &nbsp; Sign up with Google</button>
           
           </div>
           <div className='col-md-6'>
             <div className='d-flex flex-column'>
-            <p className='mt-5 ms-5'>Already have an account?<span className='fw-bold text-primary'> Sign In</span></p>
-            <img src='formimage.png' alt="formimage"/>
+            <p className=' ms-5'>Already have an account?<span className='fw-bold text-primary'> Sign In</span></p>
             </div>
-            
             <p className='mb-5' style={{fontSize:"0.8rem",color:"rgba(0, 0, 0, 0.5)",fontWeight:"500"}}>By signing up, you agree to our Terms & conditions, Privacy policy</p>
           </div>
         </div>

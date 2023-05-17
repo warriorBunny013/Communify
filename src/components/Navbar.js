@@ -17,15 +17,18 @@ const Navbar = () => {
        </nav>
        {open && <Register setOpen={setOpen} />}
     </div>
-    <div style={{position:"relative"}}>
-        <nav className="flex-wrap d-xl-none d-lg-none d-md-none d-flex border-0 rounded-circle w-25 border d-flex justify-content-around" style={{position:"absolute",top:'0',width:"100%",zIndex:"100"}}>
-           <div style={{position:"absolute"}}>
+    <div className='bg-danger' style={{position:"relative"}}>
+        <nav className="flex-wrap d-xl-none d-lg-none d-md-none d-flex border-0 w-100 d-flex justify-content-between" style={{position:"absolute",top:'0',width:"100%",zIndex:"100"}}>
+          
             <button type="button"  onClick={() => setOpens(true)} className="mt-3 mb-2 btn" style={{background:"transparent",color:"white"}} >
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
 </svg>
 </button>
-             </div>
+<button className='d-xl-none d-lg-none d-md-none d-flex text-center mt-3 mb-2 btn text-nowrap border border-2'  style={{background:"transparent",color:"white"}} >+ Join Group</button>
+                
+
+             
        </nav>
        {opens && <RegisterSmall setOpens={setOpens} />}
     </div>

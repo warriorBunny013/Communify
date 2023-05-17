@@ -3,7 +3,7 @@ import Modal from './Modal';
 import data from '../data';
 const FilterNav = ({filterItem,setItem}) => {
     const [isOpen,setIsOpen]=useState(false);
-    
+    // const [isOpens,setIsOpens]=useState(false);
    
     return (
         <>
@@ -27,12 +27,11 @@ const FilterNav = ({filterItem,setItem}) => {
         
        
         </div>
-
+         
         <div className='flex-wrap d-xl-none d-lg-none d-md-none d-flex container justify-content-center w-100 flex-column'>
        <h3 className='mb-5 fw-bold mt-4'>Posts(368)</h3>
-      
         <div className='flex-wrap dropdown d-flex align-items-end justify-content-around border-bottom'>
-        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button className="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown
   </button>
             <div aria-labelledby="dropdownMenu2" className='flex-wrap dropdown-menu d-flex align-items-end' style={{listStyle:"none", boxSizing:"border-box"}}>
