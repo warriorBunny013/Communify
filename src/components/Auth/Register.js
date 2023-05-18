@@ -3,7 +3,7 @@ import React from 'react';
 const Register = ({setOpen}) => {
     return (<div className='' style={{ backgroundColor: "rgba(0,0,0,0.5)", position: "fixed",height: "100%", width: "100%", top: 0,left: 0, display: "flex" ,alignItems: "center",justifyContent: "center",overflow: "auto",zIndex: 99999}}>
     <div style={{marginTop:"4rem"}} className=" card mb-3 w-50 rounded" >
-    <div className='text-center p-3'style={{position:"relative",color:"rgba(0, 138, 69, 1)",backgroundColor:"#EFFFF4"}}>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼<button onClick={() => setOpen(false)} className='rounded-circle border fw-bold text-grey border-dark' style={{ width:"1.8rem",height:"1.8rem", position:"absolute",top:-30,right:-20}}>X</button></div>
+    <div className='text-center p-2'style={{position:"relative",color:"rgba(0, 138, 69, 1)",backgroundColor:"#EFFFF4"}}>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼<button onClick={() => setOpen(false)} className='rounded-circle border fw-bold text-grey border-dark' style={{ width:"1.8rem",height:"1.8rem", position:"absolute",top:-30,right:-20}}>X</button></div>
     <div className='container'>
         <div className='row'>
             
