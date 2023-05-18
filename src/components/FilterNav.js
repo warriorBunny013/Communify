@@ -19,7 +19,7 @@ const FilterNav = ({filterItem,setItem}) => {
             <div className='d-flex gap-2 h-100 mr-5' style={{listStyle:"none", boxSizing:"border-box"}}>
             <div className='text-center  font-weight-bold' ><button type="button"  onClick={() => setIsOpen(true)} className="mt-3 mb-2 btn btn-light text-nowrap border border-dark">Write a post</button>
             </div>
-            <div className='text-center  font-weight-bold ' ><button type="button" className="mt-3 text-nowrap mb-2 btn btn-primary">+ Join Group</button></div>
+            <div className='text-center  font-weight-bold ' ><button type="button" className="mt-3 text-nowrap mb-2 btn btn-primary"><img src='group.png' alt='group'/> Join Group</button></div>
             </div>
         </div>
         
