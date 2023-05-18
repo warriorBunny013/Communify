@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 const RegisterSmall = ({setOpens}) => {
   const [togglesm, setTogglesm] = useState(true)
-    return (<div className='' style={{ backgroundColor: "rgba(0,0,0,0.5)", position: "fixed", width: "100%", top: 0,left: 0, display: "flex" ,alignItems: "center",justifyContent: "center",overflow: "auto",zIndex: 99999}}>
+    return (<div className='' style={{ backgroundColor: "rgba(0,0,0,0.5)", position: "fixed", width: "100%", top: 0,left: 0, display: "flex" ,alignItems: "center",justifyContent: "center",overflow: "auto",zIndex: 99999,height:"100vh"}}>
     <div className="mt-4 card mb-3 rounded" style={{position:"relative"}} >
     <button onClick={() => setOpens(false)} className='rounded-circle border fw-bold text-grey border-dark' style={{ width:"1.8rem",height:"1.8rem",color:"white",backgroundColor:"#212529", position:"absolute",top:0,right:22}}>X</button>
     <div className='container'>
