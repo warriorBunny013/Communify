@@ -51,13 +51,13 @@ const Card = ({image,type,category,heading,paragraph,profile,name,date,place,vie
         <div className='d-flex'>
         <img
         src={profile}
-        className="rounded-circle"
+        
         alt="Avatar"
-        style={{width:"3rem"}}
+        style={{height:"3.3rem"}}
       />
-      <p className='my-2 ms-3' style={{fontWeight:"600",fontSize:"1.2rem"}}>{name}</p>
+      <p className='my-2 ms-3' style={{fontWeight:"600",fontSize:"1rem"}}>{name}</p>
         </div>
-       <div className='d-flex gap-5 mx-2'>
+       <div className='d-flex gap-4 mx-2'>
         <p className='my-2'><img style={{cursor:"pointer"}} src='eye.png' alt="views"/>&nbsp; {views} views</p>
         <div><img style={{cursor:"pointer"}} src='share.png' alt='share'/></div>
        </div>
