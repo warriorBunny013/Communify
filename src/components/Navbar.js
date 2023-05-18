@@ -36,7 +36,7 @@ const Navbar = () => {
 </button>
 <button className='d-xl-none d-lg-none d-md-none d-flex text-center mt-3 mb-2 btn text-nowrap border border-2'  style={{background:"transparent",color:"white"}} >Join Group</button>
                 
-
+<img  src="pen.png" alt='pen' style={{position:"fixed",bottom:10, right:20,cursor:"pointer"}}/>
              
        </nav>
        {opens && <RegisterSmall setOpens={setOpens} />}
