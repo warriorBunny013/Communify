@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom';
 const LandingPage = () => {
     return (
         <div className="px-5">
-        <div className='w-100 min-vh-100 d-flex flex-wrap justify-content-center p-3'>
+        <div className='w-100 min-vh-100 d-flex  justify-content-center p-3'>
             <div className='d-flex flex-column justify-content-center w-50 p-2'>
                 <div className=''>
                 <h1 className='mb-5 fw-bold'>Connecting professionals, sharing knowledge, inspiring growth</h1>
-            <p className='opacity-75 mb-4 fs-5'>Our social media platform is designed for professionals to connect, share valuable articles, educational content, and engage in meaningful discussions. Unlock your potential, expand your network, and stay up-to-date with industry trends on our dynamic platform.
+            <p className='opacity-75 mb-4 '>Our social media platform is designed for professionals to connect, share valuable articles, educational content, and engage in meaningful discussions. Unlock your potential, expand your network, and stay up-to-date with industry trends on our dynamic platform.
             </p>
                 </div>
                 <div className='d-flex gap-3'>
-                <a href="#groups" type="button" className="btn btn-primary btn-lg fs-5 px-5 py-2 rounded-pill">Get started &rarr;</a>
-                <button type="button" className="btn btn-outline-primary btn-lg fs-5 px-5 py-2 rounded-pill">watch video</button>
+                <a href="#groups" type="button" className="btn btn-primary  fs-5 px-5 py-2 rounded-pill">Get started &rarr;</a>
+                <button type="button" className="btn btn-outline-primary  fs-5 px-5 py-2 rounded-pill">watch video</button>
                 {/* <button type="button" class="btn btn-primary btn-lg rounded-pill">Primary</button> */}
                 </div>
             
             </div>
             <div>
-            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_osdxlbqq.json"  background="transparent"  speed="1"  style={{width: "700px", height: "700px"}}  loop  autoplay></lottie-player>
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_osdxlbqq.json"  background="transparent"  speed="1"  style={{width: "600px", height: "600px"}}  loop  autoplay></lottie-player>
             </div>
        
         </div>
