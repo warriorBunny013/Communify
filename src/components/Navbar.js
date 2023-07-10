@@ -17,9 +17,10 @@ const Navbar = () => {
     const [opens,setOpens]=useState(false);
     return (<><div style={{position:"relative"}}>
         <nav className="d-none d-xl-flex d-md-flex navbar navbar-light bg-white  border d-flex justify-content-around" style={{position:"sticky",top:'0',width:"100%",zIndex:"100"}}>
-            <img src='logo.png' alt='logo' className='navbar-brand'/>
+            {/* <img src='logo.png' alt='logo' className='navbar-brand'/> */}
+            <h1 className=''>COMMUNIFY</h1>
             {/* <ion-icon name="search"></ion-icon> */}
-            <input style={{backgroundColor:"rgba(242,242,242,1)", background:'transparent url("searchicon.png") no-repeat 12px'}} className="form-control w-25 px-3 border-dark  me-2 rounded-pill" type="search" placeholder="     Search for your favorite groups in ATG"/>
+            <input style={{backgroundColor:"rgba(242,242,242,1)", background:'transparent url("searchicon.png") no-repeat 12px'}} className="form-control w-25 px-3 border-dark  me-2 rounded-pill" type="search" placeholder="     Search for your favorite groups"/>
             <div>
             <button type="button"  onClick={() => setOpen(true)} className="mt-3 mb-2 btn btn-light">Create free account.<span className='fw-bold text-primary'>It's free!</span><img src='arrowdown.png' alt='arrowdown'/></button>
              </div>
