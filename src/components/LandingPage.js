@@ -6,7 +6,7 @@ const LandingPage = () => {
         <div className='w-100 min-vh-100 d-flex  justify-content-center p-3'>
             <div className='d-flex flex-column justify-content-center w-50 p-2'>
                 <div className=''>
-                <h1 className='mb-5 fw-bold'>Connecting professionals, sharing knowledge, inspiring growth</h1>
+                <h1 className='mb-3 fw-bold'>Connecting professionals, sharing knowledge, inspiring growth</h1>
             <p className='opacity-75 mb-4 '>Our social media platform is designed for professionals to connect, share valuable articles, educational content, and engage in meaningful discussions. Unlock your potential, expand your network, and stay up-to-date with industry trends on our dynamic platform.
             </p>
                 </div>
@@ -26,7 +26,7 @@ const LandingPage = () => {
             <h1 className='d-flex fs-3 my-5'>Browse Tech Groups</h1>
             <div className='d-flex'>
             <div className="card-deck d-flex flex-column gap-4">
-  <div className="card">
+  <div data-aos="fade-up" className="card">
     <div className='d-flex'>
     <img className="card-img-top w-50" src="connectivity.png" alt="Cardcap"/>
     <div className="card-body">
@@ -38,7 +38,7 @@ const LandingPage = () => {
              
     </div>
   </div>
-  <div className="card">
+  <div data-aos="fade-up" className="card">
     <div className='d-flex'>
     <img className="card-img-top w-50" src="computer.png" alt="Cardcap"/>
     <div className="card-body">
@@ -49,7 +49,7 @@ const LandingPage = () => {
              
     </div>
   </div>
-  <div className="card">
+  <div data-aos="fade-up" className="card">
     <div className='d-flex'>
     <img className="card-img-top w-50" src="tech.png" alt="Cardcap"/>
     <div className="card-body">
